@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rei da Colina - Batalhas do TikTok</title>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+            background-attachment: fixed;
+        }
+
+        header {
+            background: linear-gradient(45deg, #000428, #004e92);
+            padding: 40px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://images.unsplash.com/photo-1533154683836-84ea7a0bc310?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.2;
+            z-index: 1;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .crown-icon {
+            font-size: 4em;
+            color: #fff;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header-title {
+            font-family: 'MedievalSharp', cursive;
+            font-size: 6.5em;
+            text-align: center;
+            color: #fff;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-family: 'MedievalSharp', cursive;
+            font-size: 2em;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+        }
+
+        .tiktok-container {
+            background-color: #000;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        .tiktok-icon {
+            font-size: 2em;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: white;
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            font-family: 'MedievalSharp', cursive;
+            font-size: 2.5em;
+        }
+
+        .ranking-container {
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            overflow-x: auto;
+            margin-bottom: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            min-width: 800px;
+        }
+
+        th {
+            background: linear-gradient(135deg, #0047ab, #1e3c72);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-size: 1.1em;
+            text-transform: uppercase;
+        }
+
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        tr:nth-child(1) {
+            background: linear-gradient(90deg, #ffd700 0%, #fff7cc 50%, #ffd700 100%);
+            animation: shineGold 2s infinite;
+        }
+
+        tr:nth-child(2) {
+            background: linear-gradient(90deg, #C0C0C0 0%, #FFFFFF 50%, #C0C0C0 100%);
+            animation: shineSilver 2s infinite;
+        }
+
+        tr:nth-child(3) {
+            background: linear-gradient(90deg, #CD7F32 0%, #FFC8A4 50%, #CD7F32 100%);
+            animation: shineBronze 2s infinite;
+        }
+
+        @keyframes shineGold {
+            0%, 100% { filter: brightness(1); }
+            50% { filter: brightness(1.2); }
+        }
+
+        @keyframes shineSilver {
+            0%, 100% { filter: brightness(1); }
+            50% { filter: brightness(1.2); }
+        }
+
+        @keyframes shineBronze {
+            0%, 100% { filter: brightness(1); }
+            50% { filter: brightness(1.2); }
+        }
+
+        tr:nth-child(even):not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(3)) {
+            background-color: #f5f9ff;
+        }
+
+        tr:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(3)):hover {
+            background-color: #e6f0ff;
+        }
+
+        .position {
+            font-weight: bold;
+            width: 60px;
+            text-align: center;
+        }
+
+        tr:nth-child(1) .position,
+        tr:nth-child(2) .position,
+        tr:nth-child(3) .position {
+            font-size: 1.8em;
+        }
+
+        .battle-link {
+            background: linear-gradient(135deg, #0047ab, #1e3c72);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 4px;
+            margin: 0 2px;
+            font-size: 0.9em;
+            transition: all 0.3s;
+            text-decoration: none;
+        }
+
+        .battle-link:hover {
+            background: linear-gradient(135deg, #1e3c72, #0047ab);
+            transform: scale(1.05);
+        }
+
+        a {
+            color: #0047ab;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        a:hover {
+            color: #1e3c72;
+            text-decoration: underline;
+        }
+
+        .batalhas {
+            white-space: nowrap;
+        }
+
+        footer {
+            background: linear-gradient(45deg, #000428, #004e92);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 15px rgba(0,0,0,0.3);
+        }
+
+        @media (max-width: 800px) {
+            .container { padding: 10px; }
+            th, td { padding: 8px; }
+            .header-title { font-size: 4em; }
+            .subtitle { font-size: 1.5em; }
+            header { padding: 30px 0; }
+            .battle-link { padding: 2px 4px; font-size: 0.8em; }
+            .crown-icon { font-size: 3em; }
+            .tiktok-container { width: 50px; height: 50px; }
+            .tiktok-icon { font-size: 1.5em; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-background"></div>
+        <div class="header-content">
+            <i class="fas fa-crown crown-icon"></i>
+            <h1 class="header-title">Rei da Colina</h1>
+            <h2 class="subtitle">Batalhas do TikTok</h2>
+            <div class="tiktok-container">
+                <i class="fab fa-tiktok tiktok-icon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Ranking</h2>
+        <div class="ranking-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Posição</th>
+                        <th>Nome</th>
+                        <th>Títulos</th>
+                        <th>TikTok</th>
+                        <th>Batalhas</th>
+                    </tr>
+                </thead>
+                <tbody id="rankingList">
+                    <!-- Lista será preenchida via JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <p>Todos os direitos reservados © aleatoriianodois</p>
+    </footer>
+
+    <script>
+        const pessoas = [
+            {nome: "João Silva", titulos: "1", tiktok: "@joaosilva", batalhas: ["1", "2", "3"]},
+            {nome: "Maria Santos", titulos: "1", tiktok: "@mariasantos", batalhas: ["1", "2", "3"]},
+            {nome: "Pedro Oliveira", titulos: "1", tiktok: "@pedrooliveira", batalhas: ["1", "2", "3"]},
+            {nome: "Ana Costa", titulos: "1", tiktok: "@anacosta", batalhas: ["1", "2", "3"]},
+            {nome: "Lucas Pereira", titulos: "1", tiktok: "@lucaspereira", batalhas: ["1", "2", "3"]},
+            {nome: "Juliana Lima", titulos: "1", tiktok: "@julianalima", batalhas: ["1", "2", "3"]},
+            {nome: "Rafael Souza", titulos: "1", tiktok: "@rafaelsouza", batalhas: ["1", "2", "3"]},
+            {nome: "Carla Ferreira", titulos: "1", tiktok: "@carlaferreira", batalhas: ["1", "2", "3"]},
+            {nome: "Bruno Rodrigues", titulos: "1", tiktok: "@brunorodrigues", batalhas: ["1", "2", "3"]},
+            {nome: "Mariana Alves", titulos: "1", tiktok: "@marianaalves", batalhas: ["1", "2", "3"]},
+            {nome: "Fernando Santos", titulos: "1", tiktok: "@fernandosantos", batalhas: ["1", "2", "3"]},
+            {nome: "Patricia Martins", titulos: "1", tiktok: "@patriciamartins", batalhas: ["1", "2", "3"]},
+            {nome: "Ricardo Gomes", titulos: "1", tiktok: "@ricardogomes", batalhas: ["1", "2", "3"]},
+            {nome: "Camila Castro", titulos: "1", tiktok: "@camilacastro", batalhas: ["1", "2", "3"]},
+            {nome: "Gabriel Nunes", titulos: "1", tiktok: "@gabrielnunes", batalhas: ["1", "2", "3"]},
+            {nome: "Beatriz Cardoso", titulos: "1", tiktok: "@beatrizcardoso", batalhas: ["1", "2", "3"]},
+            {nome: "Thiago Mendes", titulos: "1", tiktok: "@thiagomendes", batalhas: ["1", "2", "3"]},
+            {nome: "Laura Barbosa", titulos: "1", tiktok: "@laurabarbosa", batalhas: ["1", "2", "3"]},
+            {nome: "Marcos Paulo", titulos: "1", tiktok: "@marcospaulo", batalhas: ["1", "2", "3"]},
+            {nome: "Isabel Ribeiro", titulos: "1", tiktok: "@isabelribeiro", batalhas: ["1", "2", "3"]}
+        ];
+
+        function criarRanking() {
+            const rankingList = document.getElementById('rankingList');
+            
+            pessoas.forEach((pessoa, index) => {
+                const tr = document.createElement('tr');
+                
+                const tdPosition = document.createElement('td');
+                tdPosition.className = 'position';
+                
+                if(index === 0) {
+                    tdPosition.textContent = `🥇`;
+                } else if(index === 1) {
+                    tdPosition.textContent = `🥈`;
+                } else if(index === 2) {
+                    tdPosition.textContent = `🥉`;
+                } else {
+                    tdPosition.textContent = `${index + 1}º`;
+                }
+                
+                const tdName = document.createElement('td');
+                tdName.textContent = pessoa.nome;
+                
+                const tdTitle = document.createElement('td');
+                tdTitle.className = 'title';
+                tdTitle.textContent = pessoa.titulos;
+
+                const tdTiktok = document.createElement('td');
+                const tiktokLink = document.createElement('a');
+                tiktokLink.href = `https://tiktok.com/${pessoa.tiktok}`;
+                tiktokLink.textContent = pessoa.tiktok;
+                tiktokLink.target = "_blank";
+                tdTiktok.appendChild(tiktokLink);
+
+                const tdBatalhas = document.createElement('td');
+                tdBatalhas.className = 'batalhas';
+                pessoa.batalhas.forEach((batalha, idx) => {
+                    const battleLink = document.createElement('a');
+                    battleLink.href = `#batalha-${batalha}`;
+                    battleLink.textContent = `Batalha ${batalha}`;
+                    battleLink.className = 'battle-link';
+                    tdBatalhas.appendChild(battleLink);
+                    
+                    if (idx < pessoa.batalhas.length - 1) {
+                        tdBatalhas.appendChild(document.createTextNode(' '));
+                    }
+                });
+                
+                tr.appendChild(tdPosition);
+                tr.appendChild(tdName);
+                tr.appendChild(tdTitle);
+                tr.appendChild(tdTiktok);
+                tr.appendChild(tdBatalhas);
+                rankingList.appendChild(tr);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', criarRanking);
+    </script>
+</body>
+</html>
