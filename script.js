@@ -5,6 +5,7 @@ const pessoasSerieA = [
     {nome: "Andrey Santos", titulos: "1", tiktok: "@andrey_santos07", batalhas: ["1"]},
     {nome: "ARTHUR ALBUQUERQUE", titulos: "1", tiktok: "@arthuralbuquerque77", batalhas: ["1"]},
     {nome: "Bella", titulos: "1", tiktok: "@bellamy._spark", batalhas: ["1"]},
+    {nome: "dfuty", titulos: "1", tiktok: "@dfuty", batalhas: ["1"]},
     {nome: "GOSPEL ✝️", titulos: "1", tiktok: "@e_almeida1k", batalhas: ["1"]},
     {nome: "Manel_2k24__", titulos: "1", tiktok: "@manel_2k24__", batalhas: ["1"]},
     {nome: "Matheus Modesto", titulos: "1", tiktok: "@matheusmodesto5", batalhas: ["1"]},
@@ -103,6 +104,9 @@ function criarRanking(pessoas, elementId) {
                             break;
                         case "@arthuralbuquerque77":
                             battleLink.href = "https://www.tiktok.com/@aleatoriianodois/video/7441017940721274168";
+                            break;
+                        case "@dfuty":
+                            battleLink.href = "https://www.tiktok.com/@aleatoriianodois/video/7441395208740179255";
                             break;
                         default:
                             battleLink.href = `#batalha-${batalha}`;
