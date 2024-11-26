@@ -1,6 +1,6 @@
 const pessoasSerieA = [
+    {nome: "Paulo César", titulos: "3", tiktok: "@pcoficial_", batalhas: ["1", "2", "3"]},
     {nome: "Jose Jeimesson", titulos: "2", tiktok: "@josejeimesson", batalhas: ["1", "2"]},
-    {nome: "Paulo César", titulos: "2", tiktok: "@pcoficial_", batalhas: ["1", "2"]},
     {nome: "Ricardo Andrade688", titulos: "2", tiktok: "@ricardo_ddo55", batalhas: ["1", "2"]},
     {nome: "Andrey Santos", titulos: "1", tiktok: "@andrey_santos07", batalhas: ["1"]},
     {nome: "ARTHUR ALBUQUERQUE", titulos: "1", tiktok: "@arthuralbuquerque77", batalhas: ["1"]},
@@ -59,17 +59,19 @@ function criarRanking(pessoas, elementId) {
             
             // Links especiais para as batalhas
             if(isSerieA) {
-                if(index === 0) { // Jose Jeimesson
-                    if(idx === 0) {
-                        battleLink.href = "https://www.tiktok.com/@aleatoriianodois/video/7440494121178926391";
-                    } else if(idx === 1) {
-                        battleLink.href = "https://www.tiktok.com/@aleatoriianodois/video/7440663019023093047";
-                    }
-                } else if(index === 1) { // Paulo César
+                if(index === 0) { // Paulo César (agora em primeiro)
                     if(idx === 0) {
                         battleLink.href = "https://www.tiktok.com/@aleatoriianodois/video/7438448739628354871";
                     } else if(idx === 1) {
                         battleLink.href = "https://www.tiktok.com/@aleatoriianodois/video/7440890776449502520";
+                    } else if(idx === 2) {
+                        battleLink.href = "https://www.tiktok.com/@aleatoriianodois/video/7441657829989109047";
+                    }
+                } else if(index === 1) { // Jose Jeimesson (agora em segundo)
+                    if(idx === 0) {
+                        battleLink.href = "https://www.tiktok.com/@aleatoriianodois/video/7440494121178926391";
+                    } else if(idx === 1) {
+                        battleLink.href = "https://www.tiktok.com/@aleatoriianodois/video/7440663019023093047";
                     }
                 } else {
                     // Links específicos para cada pessoa
