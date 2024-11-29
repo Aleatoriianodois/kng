@@ -1,5 +1,5 @@
 const pessoasSerieA = [
-    {nome: "Paulo César", titulos: "4", tiktok: "@pcoficial_", batalhas: ["1", "2", "3"], imagem: "paulocesar.png"},
+    {nome: "Paulo César", titulos: "5", tiktok: "@pcoficial_", batalhas: ["1", "2", "3"], imagem: "paulocesar.png"},
     {nome: "Jose Jeimesson", titulos: "2", tiktok: "@josejeimesson", batalhas: ["1", "2"], imagem: "jose.png"},
     {nome: "Ricardo Andrade688", titulos: "2", tiktok: "@ricardo_ddo55", batalhas: ["1", "2"], imagem: "ricardo.png"},
     {nome: "Andrey Santos", titulos: "1", tiktok: "@andrey_santos07", batalhas: ["1"], imagem: "andreysantos.png"},
