@@ -18,7 +18,6 @@ const pessoasSerieA = [
     {nome: "StormyV98", titulos: "1", tiktok: "@miguelitov98", batalhas: ["1"], imagem: "miguelito.png"},
     {nome: "Mendes", titulos: "1", tiktok: "@mendesssssssssss.02", batalhas: ["1"], imagem: "mendes.png"}
 ];
-];
 
 const pessoasSerieB = [
     {nome: "Davi Souza", titulos: "0", tiktok: "@davisouzaofc", batalhas: ["1"], imagem: ""},
