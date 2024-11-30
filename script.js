@@ -16,7 +16,7 @@ const pessoasSerieA = [
     {nome: "WTzangetsu🌻", titulos: "1", tiktok: "@wtzangetsu", batalhas: ["1"], imagem: "zan.png"}, // Novo participante adicionado
     {nome: "emi oliveira 💍🤍", titulos: "1", tiktok: "@emi.oliveira00", batalhas: ["1"], imagem: "emi.png"},
     {nome: "StormyV98", titulos: "1", tiktok: "@miguelitov98", batalhas: ["1"], imagem: "miguelito.png"},
-    {nome: "Mendes", titulos: "1", tiktok: "@mendesssssssssss.02", batalhas: ["1"], imagem: "mendes.png"}
+    {nome: "Mendes", titulos: "1", tiktok: "@mendesssssssssss.02", batalhas: ["1"], imagem: ""}
 ];
 ];
 
