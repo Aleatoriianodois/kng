@@ -1,37 +1,37 @@
 const pessoasSerieA = [
-    {nome: "Paulo César", titulos: "5", tiktok: "@pcoficial_", batalhas: ["1", "2", "3"], imagem: "paulocesar.png"},
-    {nome: "WTzangetsu🌻", titulos: "3", tiktok: "@wtzangetsu", batalhas: ["1"], imagem: "zan.png"},
-    {nome: "Jose Jeimesson", titulos: "3", tiktok: "@josejeimesson", batalhas: ["1"], imagem: "jose.png"},
-    {nome: "Mendes", titulos: "3", tiktok: "@mendesssssssssss.02", batalhas: ["1"], imagem: "mendes.png"},
-    {nome: "Ricardo Andrade688", titulos: "2", tiktok: "@ricardo_ddo55", batalhas: ["1", "2"], imagem: "ricardo.png"},
-    {nome: "Andrey Santos", titulos: "1", tiktok: "@andrey_santos07", batalhas: ["1"], imagem: "andreysantos.png"},
-    {nome: "ARTHUR ALBUQUERQUE", titulos: "1", tiktok: "@arthuralbuquerque77", batalhas: ["1"], imagem: "arthur.png"},
-    {nome: "Bella", titulos: "1", tiktok: "@bellamy._spark", batalhas: ["1"], imagem: "bella.png"},
-    {nome: "dfuty", titulos: "1", tiktok: "@dfuty", batalhas: ["1"], imagem: ""},
-    {nome: "GOSPEL ✝️", titulos: "1", tiktok: "@e_almeida1k", batalhas: ["1"], imagem: "gospel.png"},
-    {nome: "Manel_2k24__", titulos: "1", tiktok: "@manel_2k24__", batalhas: ["1"], imagem: "manel.png"},
-    {nome: "Matheus Modesto", titulos: "1", tiktok: "@matheusmodesto5", batalhas: ["1"], imagem: "matheus.png"},
-    {nome: "Renan.kkj", titulos: "1", tiktok: "@renan.kkjjjk", batalhas: ["1"], imagem: "renan.png"},
-    {nome: "Ze Victor", titulos: "1", tiktok: "@zee_victoor", batalhas: ["1"], imagem: "zevictor.png"},
-    {nome: "Jaqueline Rissardi", titulos: "1", tiktok: "@jaqueline.rissard", batalhas: ["1"], imagem: "jaqueline.png"},
-    {nome: "Igoozinn Soares", titulos: "1", tiktok: "@igooziinn", batalhas: ["1"], imagem: "igo.png"},
-    {nome: "emi oliveira 💍🤍", titulos: "1", tiktok: "@emi.oliveira00", batalhas: ["1"], imagem: "emi.png"},
-    {nome: "StormyV98", titulos: "1", tiktok: "@miguelitov98", batalhas: ["1"], imagem: "miguelito.png"},
-    {nome: "L_U_A_X", titulos: "1", tiktok: "@waron_00", batalhas: ["1"], imagem: "luax.png"},
-    {nome: "Flopado.cdt.ofc", titulos: "1", tiktok: "@flopado.cdt.ofc", batalhas: ["1"], imagem: "flopado.png"},
-    {nome: "Leoo_da_g5", titulos: "1", tiktok: "@leon4rdo46", batalhas: ["1"], imagem: "leog5.png"},
-    {nome: "VITNHO..F..T..R", titulos: "1", tiktok: "@vitnho..f..t..r", batalhas: ["1"], imagem: "vitinhovtr.png"}
+    {nome: "Paulo César", titulos: "5", tiktok: "@pcoficial_", patente: "patente1.png", batalhas: ["1", "2", "3"], imagem: "paulocesar.png"},
+    {nome: "WTzangetsu🌻", titulos: "3", tiktok: "@wtzangetsu", patente: "logo-patente-platina-1.png", batalhas: ["1"], imagem: "zan.png"},
+    {nome: "Jose Jeimesson", titulos: "3", tiktok: "@josejeimesson", patente: "patente3.png", batalhas: ["1"], imagem: "jose.png"},
+    {nome: "Mendes", titulos: "3", tiktok: "@mendesssssssssss.02", patente: "logo-patente-platina-2.png", batalhas: ["1"], imagem: "mendes.png"},
+    {nome: "Ricardo Andrade688", titulos: "2", tiktok: "@ricardo_ddo55", patente: "patente5.png", batalhas: ["1", "2"], imagem: "ricardo.png"},
+    {nome: "Andrey Santos", titulos: "1", tiktok: "@andrey_santos07", patente: "patente6.png", batalhas: ["1"], imagem: "andreysantos.png"},
+    {nome: "ARTHUR ALBUQUERQUE", titulos: "1", tiktok: "@arthuralbuquerque77", patente: "patente7.png", batalhas: ["1"], imagem: "arthur.png"},
+    {nome: "Bella", titulos: "1", tiktok: "@bellamy._spark", patente: "patente8.png", batalhas: ["1"], imagem: "bella.png"},
+    {nome: "dfuty", titulos: "1", tiktok: "@dfuty", patente: "patente9.png", batalhas: ["1"], imagem: ""},
+    {nome: "GOSPEL ✝️", titulos: "1", tiktok: "@e_almeida1k", patente: "patente10.png", batalhas: ["1"], imagem: "gospel.png"},
+    {nome: "Manel_2k24__", titulos: "1", tiktok: "@manel_2k24__", patente: "patente11.png", batalhas: ["1"], imagem: "manel.png"},
+    {nome: "Matheus Modesto", titulos: "1", tiktok: "@matheusmodesto5", patente: "patente12.png", batalhas: ["1"], imagem: "matheus.png"},
+    {nome: "Renan.kkj", titulos: "1", tiktok: "@renan.kkjjjk", patente: "patente13.png", batalhas: ["1"], imagem: "renan.png"},
+    {nome: "Ze Victor", titulos: "1", tiktok: "@zee_victoor", patente: "patente14.png", batalhas: ["1"], imagem: "zevictor.png"},
+    {nome: "Jaqueline Rissardi", titulos: "1", tiktok: "@jaqueline.rissard", patente: "patente15.png", batalhas: ["1"], imagem: "jaqueline.png"},
+    {nome: "Igoozinn Soares", titulos: "1", tiktok: "@igooziinn", patente: "patente16.png", batalhas: ["1"], imagem: "igo.png"},
+    {nome: "emi oliveira 💍🤍", titulos: "1", tiktok: "@emi.oliveira00", patente: "patente17.png", batalhas: ["1"], imagem: "emi.png"},
+    {nome: "StormyV98", titulos: "1", tiktok: "@miguelitov98", patente: "patente18.png", batalhas: ["1"], imagem: "miguelito.png"},
+    {nome: "L_U_A_X", titulos: "1", tiktok: "@waron_00", patente: "patente19.png", batalhas: ["1"], imagem: "luax.png"},
+    {nome: "Flopado.cdt.ofc", titulos: "1", tiktok: "@flopado.cdt.ofc", patente: "patente20.png", batalhas: ["1"], imagem: "flopado.png"},
+    {nome: "Leoo_da_g5", titulos: "1", tiktok: "@leon4rdo46", patente: "patente21.png", batalhas: ["1"], imagem: "leog5.png"},
+    {nome: "VITNHO..F..T..R", titulos: "1", tiktok: "@vitnho..f..t..r", patente: "patente22.png", batalhas: ["1"], imagem: "vitinhovtr.png"}
 ];
 
 const pessoasSerieB = [
-    {nome: "Davi Souza", titulos: "0", tiktok: "@davisouzaofc", batalhas: ["1"], imagem: ""},
-    {nome: "Enzo Gabriel", titulos: "0", tiktok: "@enzogabriel.fps", batalhas: ["1"], imagem: ""},
-    {nome: "Gabriel Medina", titulos: "0", tiktok: "@gabrielmedina_ofc", batalhas: ["1"], imagem: ""},
-    {nome: "Gustavo", titulos: "0", tiktok: "@gustavohenriquegamer1", batalhas: ["1"], imagem: ""},
-    {nome: "João Pedro", titulos: "0", tiktok: "@joaopedro.fps", batalhas: ["1"], imagem: ""},
-    {nome: "Lucas Gabriel", titulos: "0", tiktok: "@lucasgabriel.fps", batalhas: ["1"], imagem: ""},
-    {nome: "Matheus Santos", titulos: "0", tiktok: "@matheussantos.fps", batalhas: ["1"], imagem: ""},
-    {nome: "Pedro Henrique", titulos: "0", tiktok: "@pedrohenrique.fps", batalhas: ["1"], imagem: ""}
+    {nome: "Davi Souza", titulos: "0", tiktok: "@davisouzaofc", patente: "patente23.png", batalhas: ["1"], imagem: ""},
+    {nome: "Enzo Gabriel", titulos: "0", tiktok: "@enzogabriel.fps", patente: "patente24.png", batalhas: ["1"], imagem: ""},
+    {nome: "Gabriel Medina", titulos: "0", tiktok: "@gabrielmedina_ofc", patente: "patente25.png", batalhas: ["1"], imagem: ""},
+    {nome: "Gustavo", titulos: "0", tiktok: "@gustavohenriquegamer1", patente: "patente26.png", batalhas: ["1"], imagem: ""},
+    {nome: "João Pedro", titulos: "0", tiktok: "@joaopedro.fps", patente: "patente27.png", batalhas: ["1"], imagem: ""},
+    {nome: "Lucas Gabriel", titulos: "0", tiktok: "@lucasgabriel.fps", patente: "patente28.png", batalhas: ["1"], imagem: ""},
+    {nome: "Matheus Santos", titulos: "0", tiktok: "@matheussantos.fps", patente: "patente29.png", batalhas: ["1"], imagem: ""},
+    {nome: "Pedro Henrique", titulos: "0", tiktok: "@pedrohenrique.fps", patente: "patente30.png", batalhas: ["1"], imagem: ""}
 ];
 
 function criarRanking(pessoas, elementId) {
@@ -72,6 +72,17 @@ function criarRanking(pessoas, elementId) {
         }
         tdName.appendChild(document.createTextNode(pessoa.nome));
         
+        const tdPatente = document.createElement('td'); // Adicionada a célula para Patente
+        if (pessoa.patente) {
+            const imgPatente = document.createElement('img');
+            imgPatente.src = `images/${pessoa.patente}`; // Caminho da imagem da patente
+            imgPatente.style.width = '25px'; // Ajuste o tamanho da imagem
+            imgPatente.style.height = '25px'; // Ajuste o tamanho da imagem
+            imgPatente.style.borderRadius = '50%'; // Bordas arredondadas
+            imgPatente.style.marginRight = '8px'; // Espaçamento à direita
+            tdPatente.appendChild(imgPatente);
+        }
+
         const tdTitle = document.createElement('td');
         tdTitle.className = 'title';
         tdTitle.textContent = pessoa.titulos;
@@ -83,26 +94,11 @@ function criarRanking(pessoas, elementId) {
         tiktokLink.target = "_blank";
         tdTiktok.appendChild(tiktokLink);
 
-        // Removido o código que adiciona as batalhas
-        // const tdBatalhas = document.createElement('td');
-        // tdBatalhas.className = 'batalhas';
-        // pessoa.batalhas.forEach((batalha, idx) => {
-        //     const battleLink = document.createElement('a');
-        //     battleLink.href = `#batalha-${batalha}`;
-        //     battleLink.textContent = `Batalha ${batalha}`;
-        //     battleLink.className = 'battle-link';
-        //     battleLink.target = "_blank";
-        //     tdBatalhas.appendChild(battleLink);
-        //     if (idx < pessoa.batalhas.length - 1) {
-        //         tdBatalhas.appendChild(document.createTextNode(' '));
-        //     }
-        // });
-        
         tr.appendChild(tdPosition);
         tr.appendChild(tdName);
+        tr.appendChild(tdPatente); // Adicionada a célula de Patente
         tr.appendChild(tdTitle);
         tr.appendChild(tdTiktok);
-        // tr.appendChild(tdBatalhas); // Removido
         rankingList.appendChild(tr);
     });
 }
