@@ -19,7 +19,8 @@ const pessoasSerieA = [
     {nome: "StormyV98", titulos: "1", tiktok: "@miguelitov98", batalhas: ["1"], imagem: "miguelito.png"},
     {nome: "L_U_A_X", titulos: "1", tiktok: "@waron_00", batalhas: ["1"], imagem: "luax.png"},
     {nome: "Flopado.cdt.ofc", titulos: "1", tiktok: "@flopado.cdt.ofc", batalhas: ["1"], imagem: "flopado.png"},
-    {nome: "Leoo_da_g5", titulos: "1", tiktok: "@leon4rdo46", batalhas: ["1"], imagem: "leog5.png"}
+    {nome: "Leoo_da_g5", titulos: "1", tiktok: "@leon4rdo46", batalhas: ["1"], imagem: "leog5.png"},
+    {nome: "VITNHO..F..T..R", titulos: "1", tiktok: "@vitnho..f..t..r", batalhas: ["1"], imagem: "vitinhovtr.png"}
 ];
 
 const pessoasSerieB = [
