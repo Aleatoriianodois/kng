@@ -1,8 +1,8 @@
 const pessoasSerieA = [
     {nome: "Paulo César", titulos: "5", tiktok: "@pcoficial_", patente: "logo-patente-prata-3.png", batalhas: ["1", "2", "3"], imagem: "paulocesar.png"},
+    {nome: "Mendes", titulos: "4", tiktok: "@mendesssssssssss.02", patente: "logo-patente-platina-2.png", batalhas: ["1"], imagem: "mendes.png"},
     {nome: "WTzangetsu🌻", titulos: "3", tiktok: "@wtzangetsu", patente: "logo-patente-platina-1.png", batalhas: ["1"], imagem: "zan.png"},
     {nome: "Jose Jeimesson", titulos: "3", tiktok: "@josejeimesson", patente: "logo-patente-prata-1.png", batalhas: ["1"], imagem: "jose.png"},
-    {nome: "Mendes", titulos: "3", tiktok: "@mendesssssssssss.02", patente: "logo-patente-platina-2.png", batalhas: ["1"], imagem: "mendes.png"},
     {nome: "Ricardo Andrade688", titulos: "2", tiktok: "@ricardo_ddo55", patente: "logo-patente-bronze-1.png", batalhas: ["1", "2"], imagem: "ricardo.png"},
     {nome: "Andrey Santos", titulos: "1", tiktok: "@andrey_santos07", patente: "patente6.png", batalhas: ["1"], imagem: "andreysantos.png"},
     {nome: "ARTHUR ALBUQUERQUE", titulos: "1", tiktok: "@arthuralbuquerque77", patente: "patente7.png", batalhas: ["1"], imagem: "arthur.png"},
