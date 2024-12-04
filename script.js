@@ -4,10 +4,10 @@ const pessoasSerieA = [
     {nome: "WTzangetsu🌻", titulos: "3", tiktok: "@wtzangetsu", patente: "logo-patente-platina-1.png", batalhas: ["1"], imagem: "zan.png"},
     {nome: "Jose Jeimesson", titulos: "3", tiktok: "@josejeimesson", patente: "logo-patente-prata-1.png", batalhas: ["1"], imagem: "jose.png"},
     {nome: "Ricardo Andrade688", titulos: "2", tiktok: "@ricardo_ddo55", patente: "logo-patente-bronze-1.png", batalhas: ["1", "2"], imagem: "ricardo.png"},
-    {nome: "Andrey Santos", titulos: "1", tiktok: "@andrey_santos07", patente: "patente6.png", batalhas: ["1"], imagem: "andreysantos.png"},
-    {nome: "ARTHUR ALBUQUERQUE", titulos: "1", tiktok: "@arthuralbuquerque77", patente: "patente7.png", batalhas: ["1"], imagem: "arthur.png"},
-    {nome: "Bella", titulos: "1", tiktok: "@bellamy._spark", patente: "patente8.png", batalhas: ["1"], imagem: "bella.png"},
-    {nome: "dfuty", titulos: "1", tiktok: "@dfuty", patente: "patente9.png", batalhas: ["1"], imagem: ""},
+    {nome: "Andrey Santos", titulos: "1", tiktok: "@andrey_santos07", patente: "none.png", batalhas: ["1"], imagem: "andreysantos.png"},
+    {nome: "ARTHUR ALBUQUERQUE", titulos: "1", tiktok: "@arthuralbuquerque77", patente: "none.png", batalhas: ["1"], imagem: "arthur.png"},
+    {nome: "Bella", titulos: "1", tiktok: "@bellamy._spark", patente: "none.png", batalhas: ["1"], imagem: "bella.png"},
+    {nome: "dfuty", titulos: "1", tiktok: "@dfuty", patente: "none.png", batalhas: ["1"], imagem: ""},
     {nome: "GOSPEL ✝️", titulos: "1", tiktok: "@e_almeida1k", patente: "logo-patente-bronze-2.png", batalhas: ["1"], imagem: "gospel.png"},
     {nome: "Manel_2k24__", titulos: "1", tiktok: "@manel_2k24__", patente: "patente11.png", batalhas: ["1"], imagem: "manel.png"},
     {nome: "Matheus Modesto", titulos: "1", tiktok: "@matheusmodesto5", patente: "logo-patente-bronze-1.png", batalhas: ["1"], imagem: "matheus.png"},
@@ -15,12 +15,12 @@ const pessoasSerieA = [
     {nome: "Ze Victor", titulos: "1", tiktok: "@zee_victoor", patente: "logo-patente-bronze-1.png", batalhas: ["1"], imagem: "zevictor.png"},
     {nome: "Jaqueline Rissardi", titulos: "1", tiktok: "@jaqueline.rissard", patente: "patente15.png", batalhas: ["1"], imagem: "jaqueline.png"},
     {nome: "Igoozinn Soares", titulos: "1", tiktok: "@igooziinn", patente: "logo-patente-bronze-1.png", batalhas: ["1"], imagem: "igo.png"},
-    {nome: "emi oliveira 💍🤍", titulos: "1", tiktok: "@emi.oliveira00", patente: "patente17.png", batalhas: ["1"], imagem: "emi.png"},
-    {nome: "StormyV98", titulos: "1", tiktok: "@miguelitov98", patente: "patente18.png", batalhas: ["1"], imagem: "miguelito.png"},
-    {nome: "L_U_A_X", titulos: "1", tiktok: "@waron_00", patente: "patente19.png", batalhas: ["1"], imagem: "luax.png"},
-    {nome: "Flopado.cdt.ofc", titulos: "1", tiktok: "@flopado.cdt.ofc", patente: "patente20.png", batalhas: ["1"], imagem: "flopado.png"},
+    {nome: "emi oliveira 💍🤍", titulos: "1", tiktok: "@emi.oliveira00", patente: "none.png", batalhas: ["1"], imagem: "emi.png"},
+    {nome: "StormyV98", titulos: "1", tiktok: "@miguelitov98", patente: "none.png", batalhas: ["1"], imagem: "miguelito.png"},
+    {nome: "L_U_A_X", titulos: "1", tiktok: "@waron_00", patente: "none.png", batalhas: ["1"], imagem: "luax.png"},
+    {nome: "Flopado.cdt.ofc", titulos: "1", tiktok: "@flopado.cdt.ofc", patente: "none.png", batalhas: ["1"], imagem: "flopado.png"},
     {nome: "Leoo_da_g5", titulos: "1", tiktok: "@leon4rdo46", patente: "logo-patente-prata-3.png", batalhas: ["1"], imagem: "leog5.png"},
-    {nome: "VITNHO..F..T..R", titulos: "1", tiktok: "@vitnho..f..t..r", patente: "patente22.png", batalhas: ["1"], imagem: "vitinhovtr.png"}
+    {nome: "VITNHO..F..T..R", titulos: "1", tiktok: "@vitnho..f..t..r", patente: "none.png", batalhas: ["1"], imagem: "vitinhovtr.png"}
 ];
 
 const pessoasSerieB = [
