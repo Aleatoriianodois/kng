@@ -27,6 +27,7 @@ const pessoasSerieA = [
     {nome: "Piloto Amador", titulos: "1", tiktok: "@pilotoamadorfs", patente: "none.png", batalhas: ["1"], imagem: "pilotoamador.png"},
     {nome: "KNZINN_XTZ.7", titulos: "1", tiktok: "@knzinn_xtz.7", patente: "none.png", batalhas: ["1"], imagem: "knzinn.png"},
     {nome: "Artes Insanas", titulos: "1", tiktok: "@arte_insanas", patente: "none.png", batalhas: ["1"], imagem: "artesinsanas.png"},
+    {nome: "kaua_ftr", titulos: "1", tiktok: "@kaua_ftr", patente: "none.png", batalhas: ["1"], imagem: "kauaftr.png"},
 ];
 
 const pessoasSerieB = [
