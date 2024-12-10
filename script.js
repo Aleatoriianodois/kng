@@ -1,11 +1,11 @@
 const pessoasSerieA = [
     {nome: "Paulo César", titulos: "7", tiktok: "@pcoficial_", patente: "logo-patente-prata-3.png", batalhas: ["1", "2", "3"], imagem: "paulocesar.png"},
-    {nome: "Mendes", titulos: "7", tiktok: "@mendesssssssssss.02", patente: "logo-patente-platina-2.png", batalhas: ["1"], imagem: "mendes.png"},
+    {nome: "Mendes", titulos: "7", tiktok: "@mendesssssssssss.02", patente: "logo-patente-platina-3.png", batalhas: ["1"], imagem: "mendes.png"},
     {nome: "WTzangetsu🌻", titulos: "4", tiktok: "@wtzangetsu", patente: "logo-patente-platina-1.png", batalhas: ["1"], imagem: "zan.png"},
     {nome: "Jose Jeimesson", titulos: "3", tiktok: "@josejeimesson", patente: "logo-patente-prata-1.png", batalhas: ["1"], imagem: "jose.png"},
     {nome: "Trevor", titulos: "3", tiktok: "@trevor1339", patente: "none.png", batalhas: ["1"], imagem: "trevor1339.png"},
     {nome: "Ricardo Andrade688", titulos: "2", tiktok: "@ricardo_ddo55", patente: "logo-patente-bronze-1.png", batalhas: ["1", "2"], imagem: "ricardo.png"},
-    {nome: "emi oliveira 💍🤍", titulos: "2", tiktok: "@emi.oliveira00", patente: "none.png", batalhas: ["1"], imagem: "emi.png"},
+    {nome: "emi oliveira 💍🤍", titulos: "2", tiktok: "@emi.oliveira00", patente: "logo-patente-bronze-1.png", batalhas: ["1"], imagem: "emi.png"},
     {nome: "Andrey Santos", titulos: "1", tiktok: "@andrey_santos07", patente: "none.png", batalhas: ["1"], imagem: "andreysantos.png"},
     {nome: "ARTHUR ALBUQUERQUE", titulos: "1", tiktok: "@arthuralbuquerque77", patente: "none.png", batalhas: ["1"], imagem: "arthur.png"},
     {nome: "Bella", titulos: "1", tiktok: "@bellamy._spark", patente: "none.png", batalhas: ["1"], imagem: "bella.png"},
