@@ -6,6 +6,7 @@ const pessoasSerieA = [
     {nome: "Trevor", titulos: "3", tiktok: "@trevor1339", patente: "none.png", batalhas: ["1"], imagem: "trevor1339.png"},
     {nome: "Ricardo Andrade688", titulos: "2", tiktok: "@ricardo_ddo55", patente: "logo-patente-bronze-1.png", batalhas: ["1", "2"], imagem: "ricardo.png"},
     {nome: "emi oliveira 💍🤍", titulos: "2", tiktok: "@emi.oliveira00", patente: "logo-patente-bronze-1.png", batalhas: ["1"], imagem: "emi.png"},
+    {nome: "Artes Insanas", titulos: "2", tiktok: "@arte_insanas", patente: "none.png", batalhas: ["1"], imagem: "artesinsanas.png"},
     {nome: "Andrey Santos", titulos: "1", tiktok: "@andrey_santos07", patente: "none.png", batalhas: ["1"], imagem: "andreysantos.png"},
     {nome: "ARTHUR ALBUQUERQUE", titulos: "1", tiktok: "@arthuralbuquerque77", patente: "none.png", batalhas: ["1"], imagem: "arthur.png"},
     {nome: "Bella", titulos: "1", tiktok: "@bellamy._spark", patente: "none.png", batalhas: ["1"], imagem: "bella.png"},
@@ -26,7 +27,6 @@ const pessoasSerieA = [
     {nome: "sx.gustavo_14", titulos: "1", tiktok: "@sx.gustavo_147", patente: "none.png", batalhas: ["1"], imagem: "sxgustavo.png"},
     {nome: "Piloto Amador", titulos: "1", tiktok: "@pilotoamadorfs", patente: "none.png", batalhas: ["1"], imagem: "pilotoamador.png"},
     {nome: "KNZINN_XTZ.7", titulos: "1", tiktok: "@knzinn_xtz.7", patente: "none.png", batalhas: ["1"], imagem: "knzinn.png"},
-    {nome: "Artes Insanas", titulos: "1", tiktok: "@arte_insanas", patente: "none.png", batalhas: ["1"], imagem: "artesinsanas.png"},
     {nome: "kaua_ftr", titulos: "1", tiktok: "@kaua_ftr", patente: "none.png", batalhas: ["1"], imagem: "kauaftr.png"},
     {nome: "evelinfhsdggh", titulos: "1", tiktok: "@evelinfhsdggh", patente: "none.png", batalhas: ["1"], imagem: "evelinfhsdggh.png"},
 ];
