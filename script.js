@@ -9,10 +9,10 @@ const pessoasSerieA = [
     {nome: "emi oliveira 💍🤍", titulos: "2", tiktok: "@emi.oliveira00", patente: "logo-patente-bronze-1.png", batalhas: ["1"], imagem: "emi.png"},
     {nome: "L_U_A_X", titulos: "2", tiktok: "@waron_00", patente: "none.png", batalhas: ["1"], imagem: "luax.png"},
     {nome: "ARTHUR ALBUQUERQUE", titulos: "2", tiktok: "@arthuralbuquerque77", patente: "none.png", batalhas: ["1"], imagem: "arthur.png"},
+    {nome: "_euu.naah_", titulos: "2", tiktok: "@_euu.naah_", patente: "none.png", batalhas: ["1"], imagem: "eunah.png"},
     {nome: "Andrey Santos", titulos: "1", tiktok: "@andrey_santos07", patente: "none.png", batalhas: ["1"], imagem: "andreysantos.png"},
     {nome: "Bella", titulos: "1", tiktok: "@bellamy._spark", patente: "none.png", batalhas: ["1"], imagem: "bella.png"},
     {nome: "dfuty", titulos: "1", tiktok: "@dfuty", patente: "none.png", batalhas: ["1"], imagem: ""},
-    {nome: "_euu.naah_", titulos: "2", tiktok: "@_euu.naah_", patente: "none.png", batalhas: ["1"], imagem: "eunah.png"},
     {nome: "GOSPEL ✝️", titulos: "1", tiktok: "@e_almeida1k", patente: "logo-patente-bronze-2.png", batalhas: ["1"], imagem: "gospel.png"},
     {nome: "Manel_2k24__", titulos: "1", tiktok: "@manel_2k24__", patente: "none.png", batalhas: ["1"], imagem: "manel.png"},
     {nome: "Matheus Modesto", titulos: "1", tiktok: "@matheusmodesto5", patente: "logo-patente-bronze-1.png", batalhas: ["1"], imagem: "matheus.png"},
@@ -56,10 +56,7 @@ const pessoasSerieB = [
 function criarRanking(pessoas, elementId) {
     const rankingList = document.getElementById(elementId);
     const isSerieA = elementId === 'rankingListA';
-
-    // Ordenar os participantes pelo número de títulos em ordem decrescente
-    pessoas.sort((a, b) => b.titulos - a.titulos);
-
+    
     pessoas.forEach((pessoa, index) => {
         const tr = document.createElement('tr');
         tr.className = isSerieA ? 'serie-a' : 'serie-b';
