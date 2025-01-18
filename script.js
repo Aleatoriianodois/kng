@@ -1,5 +1,5 @@
 const pessoasSerieA = [
-    {nome: "group_peron", titulos: "1", tiktok: "@peron_xly", batalhas: ["1"], imagem: "peron_xly.png"}
+    {nome: "group_peron", titulos: "1", tiktok: "@peron_xly", imagem: "peron_xly.png"}
 ];
 
 function criarRanking(pessoas, elementId) {
@@ -40,17 +40,6 @@ function criarRanking(pessoas, elementId) {
         }
         tdName.appendChild(document.createTextNode(pessoa.nome));
         
-        const tdPatente = document.createElement('td'); // Adicionada a célula para Patente
-        if (pessoa.patente) {
-            const imgPatente = document.createElement('img');
-            imgPatente.src = `images/${pessoa.patente}`; // Caminho da imagem da patente
-            imgPatente.style.width = '25px'; // Ajuste o tamanho da imagem
-            imgPatente.style.height = '25px'; // Ajuste o tamanho da imagem
-            imgPatente.style.borderRadius = '50%'; // Bordas arredondadas
-            imgPatente.style.marginRight = '8px'; // Espaçamento à direita
-            tdPatente.appendChild(imgPatente);
-        }
-
         const tdTitle = document.createElement('td');
         tdTitle.className = 'title';
         tdTitle.innerHTML = `<div>${pessoa.titulos}</div>`; // Adicionado para colocar o título em um div
@@ -64,7 +53,6 @@ function criarRanking(pessoas, elementId) {
 
         tr.appendChild(tdPosition);
         tr.appendChild(tdName);
-        tr.appendChild(tdPatente); // Adicionada a célula de Patente
         tr.appendChild(tdTitle);
         tr.appendChild(tdTiktok);
         rankingList.appendChild(tr);
