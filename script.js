@@ -1,5 +1,5 @@
 const pessoasSerieA = [
-   {nome: "group_peron", titulos: "1", tiktok: "@peron_xly", batalhas: ["1"], imagem: "peron_xly.png"}
+    {nome: "group_peron", titulos: "1", tiktok: "@peron_xly", batalhas: ["1"], imagem: "peron_xly.png"}
 ];
 
 function criarRanking(pessoas, elementId) {
@@ -53,14 +53,14 @@ function criarRanking(pessoas, elementId) {
 
         const tdTitle = document.createElement('td');
         tdTitle.className = 'title';
-        tdTitle.textContent = pessoa.titulos;
+        tdTitle.innerHTML = `<div>${pessoa.titulos}</div>`; // Adicionado para colocar o título em um div
 
         const tdTiktok = document.createElement('td');
         const tiktokLink = document.createElement('a');
         tiktokLink.href = `https://tiktok.com/${pessoa.tiktok}`;
         tiktokLink.textContent = pessoa.tiktok;
         tiktokLink.target = "_blank";
-        tdTiktok.appendChild(tiktokLink);
+        tdTiktok.innerHTML = `<div>${tiktokLink.outerHTML}</div>`; // Adicionado para colocar o link em um div
 
         tr.appendChild(tdPosition);
         tr.appendChild(tdName);
