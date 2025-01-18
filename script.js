@@ -40,7 +40,7 @@ const pessoasSerieA = [
    // {nome: "Draken Lessa", titulos: "1", tiktok: "@draken.lessa", patente: "none.png", batalhas: ["1"], imagem: "draken.lessa.png"},
    // {nome: "abimaelmotadossan", titulos: "1", tiktok: "@abimaelmotadossantosmota", patente: "none.png", batalhas: ["1"], imagem: "abimaelmotadossantosmota.png"},
    // {nome: "henrique", titulos: "1", tiktok: "@drogadoqissurj", patente: "none.png", batalhas: ["1"], imagem: "drogadoqissurj.png"},
-   {nome: "group_peron", titulos: "1", tiktok: "@peron_xly", patente: "none.png", batalhas: ["1"], imagem: "peron_xly.png"}
+   {nome: "group_peron", titulos: "1", tiktok: "@peron_xly", batalhas: ["1"], imagem: "peron_xly.png"}
 ];
 
 function criarRanking(pessoas, elementId) {
